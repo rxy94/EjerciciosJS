@@ -1,0 +1,136 @@
+/***************************************************************************/
+/*                     Stylesheet for EjerciciosJS                         */
+/*                     Author: Ruyi Xia Ye                                 */
+/*                     Version: 1.0                                        */
+/*                     Date: May 2024                                      */
+/*                     Subject : Lenguajes de Marcas                       */
+/***************************************************************************/
+
+/*******************    External font links       **************************/
+@font-face {
+    font-family: title;
+    src: url(../fonts/MadimiOne-Regular.ttf);}
+
+@font-face {
+    font-family: subtitle;
+    src: url(../fonts/Fresca-Regular.ttf);}
+
+@font-face {
+    font-family: cardtext;
+    src: url(../fonts/Barlow-Regular.ttf);}
+
+/*******************   General design: Mobile first *************************/
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: rgb(240, 240, 168);
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    margin:auto;
+    background-color: white;
+    padding-top: 1%;
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 0;
+    font-family: title;
+    font-size: 3em;
+    color: rgb(235, 235, 16);
+}
+
+blockquote {
+    text-align: center;
+    font-family: subtitle;
+    font-size: 2em;
+    color: rgb(97, 97, 185);
+}
+
+h3 {
+    font-family: cardtext;
+}
+
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 40%;
+}
+
+/**      Cards     **/
+.grid-4 {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.col-4 {
+    padding-bottom: 8%;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.card {
+    border: 1px solid rgb(97, 97, 185);
+    box-shadow: 2px 2px 5px rgb(97, 97, 185);
+    background-color:beige;
+    color: rgb(97, 97, 185);
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 8%;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 5px rgb(97, 97, 185);
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 1px solid rgb(97, 97, 185) !important;
+    border-radius: 8px;
+    box-shadow: 3px 3px rgb(235, 235, 16);
+    margin-left: 40%;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(97, 97, 185);
+}
+
+a {
+    font-family: cardtext;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(97, 97, 185);
+}
+
+
+/******************   Responsive design: Computer  ********************/
+@media only screen and (width>800px) {
+    #wrapper {
+        width: 80%;
+    }
+
+    .grid-4 {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .col-4 {
+        padding: 5%;
+    }
+
+    .btn {
+        margin-left: 32%;
+    }
+
+}

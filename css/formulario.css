@@ -1,0 +1,56 @@
+/***************************************************************************/
+/*                     Stylesheet for Forms                                */
+/*                     Author: Ruyi Xia Ye                                 */
+/*                     Version: 1.0                                        */
+/*                     Date: May 2024                                      */
+/*                     Subject : Lenguajes de Marcas                       */
+/***************************************************************************/
+
+/*******************    External font links       **************************/
+@font-face {
+    font-family: title;
+    src: url(../fonts/MadimiOne-Regular.ttf);}
+
+/*******************   General design     **********************************/
+body {
+    background-color: beige;
+}
+
+#formulario {
+    border: 1px solid rgb(97, 97, 185)!important;
+    background-color: white;
+}
+
+h1 {
+    color: rgb(97, 97, 185); 
+    font-family: title;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(221, 221, 29);
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 1px solid rgb(97, 97, 185);
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px rgb(97, 97, 185);
+    color: white;
+    background-color: rgb(182, 182, 231);
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(97, 97, 185);
+    box-shadow: 3px 3px 2px rgb(150, 150, 225);
+}
+
+
+/*************  Colores  **************/
+.text-lilac {
+    color: rgb(97, 97, 185);
+}
+
+
+
