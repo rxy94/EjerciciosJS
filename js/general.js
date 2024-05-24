@@ -9,7 +9,7 @@ document.getElementById("btnDark").addEventListener("click", cambiarDark);
 document.getElementById("btnLight").addEventListener("click", cambiarLight);
 
 function cambiarDark() {
-    document.getElementById("estilo").setAttribute("href", "../css/dark.css");
+    document.getElementById("estilo").setAttribute("href", "../dark.css");
 }
 
 function cambiarLight() {
