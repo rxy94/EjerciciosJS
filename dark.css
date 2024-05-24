@@ -1,7 +1,15 @@
+/***************************************************************************/
+/*                     Stylesheet for Forms in Dark mode                   */
+/*                     Author: Ruyi Xia Ye                                 */
+/*                     Version: 1.0                                        */
+/*                     Date: May 2024                                      */
+/*                     Subject : Lenguajes de Marcas                       */
+/***************************************************************************/
+
 /*******************    External font links       **************************/
 @font-face {
     font-family: title;
-    src: url(../fonts/MadimiOne-Regular.ttf);}
+    src: url(./fonts/MadimiOne-Regular.ttf);}
 
 /*******************   General design     **********************************/
 body {
