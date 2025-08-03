@@ -20,3 +20,9 @@
   <li>Uso de Bootstrap v5.3 para el estilo. </li>
 </ul>
 
+## Dónde visitar la página
+Puedes ver el proyecto en funcionamiento en:  
+🔗 [Enlace al sitio web desplegado](https://rxy94.github.io/EjerciciosJS/)  
+
+## Créditos
+Este proyecto ha sido realizado íntegramente por **Ruyi Xia Ye** como parte del módulo de **Lenguajes de Marcas** en 1º DAW.
